@@ -1,5 +1,10 @@
 # relay
 
+install dependencies
+```
+npm i
+```
+
 copy config
 ```
 cp config_example.json config_bootnode.json && cp config_example.json config_relay_1.json && cp config_example.json config_relay_2.json
