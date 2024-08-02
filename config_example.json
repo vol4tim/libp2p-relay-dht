@@ -1,6 +1,7 @@
 {
   "type": "relay",
   "privateKey": "",
+  "protocolDHT": "/robo/kad/1.0.0",
   "addresses": {
     "listen": ["/ip4/0.0.0.0/tcp/4040", "/ip4/0.0.0.0/tcp/4041/ws"],
     "announce": []
