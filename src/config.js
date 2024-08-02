@@ -30,14 +30,6 @@ export async function bootnode(config) {
     ],
     services: {
       identify: identify(),
-      relay: circuitRelayServer({
-        reservations: {
-          defaultDataLimit: BigInt(131072 * 10),
-          applyDefaultLimit: false,
-          maxReservations: 500,
-          defaultDurationLimit: 25 * 60 * 1000
-        }
-      }),
       kadDHT: kadDHT({
         protocol: config.protocolDHT
       })
