@@ -39,7 +39,7 @@ export async function bootnode(config) {
         }
       }),
       kadDHT: kadDHT({
-        protocol: "/ipfs/lan/kad/1.0.0"
+        protocol: config.protocolDHT
       })
     },
     connectionManager: config.connectionManager || {}
